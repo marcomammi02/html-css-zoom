@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 11px;
 }
 
 html{
     background-color: #000000;
+}
+
+body{
+    height: 100vh;
 }
 
 /*upper section style*/
@@ -15,6 +20,10 @@ html{
     display: flex;
     justify-content: flex-end;
     padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .upper-section button{
@@ -25,4 +34,54 @@ html{
     margin-left: 8px;
     border-radius: 5px;
     margin-top: 3px;
+}
+
+/*button section style*/
+
+.button-section{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-section .fa-solid:not(.fa-angle-up){
+    font-size: 2rem;
+    padding-right: 12px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+
+.button-section button:not(.btn.end-meeting){
+    background-color: #222222;
+    border: none;
+    margin-right: 1rem;
+}
+
+.button-section .btn{
+    color: #ffffff;
+}
+
+.fa-solid.fa-share-from-square{
+    color: #4bc800;
+}
+
+.btn.end-meeting{
+    background-color: #4a4a4a;
+    color: #e22d3a;
+    border: none;
+    padding: 30px;
+}
+
+.btn.end-meeting p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn-left,
+.btn-center{
+    margin-top: 10px;
 }

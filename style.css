@@ -4,3 +4,25 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+html{
+    background-color: #000000;
+}
+
+/*upper section style*/
+
+.upper-section{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.upper-section button{
+    background-color: #4a4a4a;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    margin-left: 8px;
+    border-radius: 5px;
+    margin-top: 3px;
+}

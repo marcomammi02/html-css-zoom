@@ -109,7 +109,7 @@ button:hover{
 
 .figure{
     position: relative;
-    flex-basis: calc((100% - 0.5rem *6) / 7);
+    flex-basis: 190px;
 }
 
 .webcam-section span{

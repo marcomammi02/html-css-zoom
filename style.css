@@ -20,10 +20,12 @@ body{
     display: flex;
     justify-content: flex-end;
     padding-bottom: 20px;
+    background-color: #000000;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+    z-index: 2;
 }
 
 .upper-section button{
@@ -84,4 +86,28 @@ body{
 .btn-left,
 .btn-center{
     margin-top: 10px;
+}
+
+/*webcam section style*/
+
+.container-webcam-section{
+    padding-top: 45px;
+    margin: 0 50px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.figure{
+    position: relative;
+    min-width: calc(100% / 7);
+}
+
+.webcam-section span{
+    color: #ffffff;
+    background-color: #4a4a4a;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }

@@ -99,18 +99,25 @@ button:hover{
     padding-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+}
+
+.figure img{
+    width: 100%;
 }
 
 .figure{
     position: relative;
-    min-width: calc(100% / 7);
+    flex-basis: calc((100% - 0.5rem *6) / 7);
 }
 
 .webcam-section span{
     color: #ffffff;
-    background-color: #4a4a4a;
+    background-color: rgba( 0, 0, 0, .3);
     padding: 3px;
     position: absolute;
     bottom: 0;
     left: 0;
+    display: block;
 }
